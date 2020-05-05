@@ -1,0 +1,88 @@
+#top nav ul{
+    list-style: none;
+}
+
+#top nav li {
+    display: inline;
+    padding-left: 15px;
+}
+#top nav li a{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+#top nav li a:hover {
+    text-decoration: underline  #000;
+    color: #000;
+    opacity: 0.75;
+}
+
+#top nav #About{
+padding-left: 0px;
+}
+#top nav li #gmail {
+padding-left: 1000px;
+}
+#top nav li #signin {
+    color: white;
+    border-radius: 2px;
+    border:1px solid #1768e9;
+    font-weight: bold;
+    outline: none;
+    background-color: #1768e9;
+    line-height: 22px;
+    display: inline-block;
+}
+.container{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container #box1{
+    display: block;
+    height: 92px;
+    width: 272px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container #box2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.container #box2 a input{
+    width: 400px;
+    height: 20px;
+}
+.container #box4{
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.container #box4 a input{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.container #box3{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
