@@ -6,17 +6,17 @@
     display: inline;
     padding-left: 15px;
 }
-#top nav li a{
+#top nav a{
+    opacity: 0.75;
+}
+a {
     text-decoration: none;
     color: #000;
-    opacity: 0.75;
     font-family: arial,sans-serif;
     font-size: 13px;
 }
-#top nav li a:hover {
-    text-decoration: underline  #000;
-    color: #000;
-    opacity: 0.75;
+a:hover {
+    text-decoration: underline;  
 }
 
 #top nav #About{
@@ -85,4 +85,7 @@ padding-left: 1000px;
     opacity: 0.75;
     font-family: arial,sans-serif;
     font-size: 13px;
+}
+.container #box3 a{
+    color: blue;
 }
